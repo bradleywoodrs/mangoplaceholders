@@ -1,0 +1,7 @@
+name: mangoplaceholders
+version: '1.0'
+main: com.github.bradleywoodrs.mangoplaceholders.Mangoplaceholders
+api-version: '1.21'
+depend:
+  - PlaceholderAPI
+  - Jobs
