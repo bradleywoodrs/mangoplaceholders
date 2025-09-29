@@ -8,6 +8,7 @@ import com.gamingmesh.jobs.container.Job;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -42,6 +43,11 @@ public class JobsExpansion extends PlaceholderExpansion implements Listener {
     @Override
     public @NotNull String getVersion() {
         return plugin.getDescription().getVersion();
+    }
+
+    @Override
+    public boolean persist() {
+        return true;
     }
 
     @Override

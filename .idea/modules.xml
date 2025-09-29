@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.bradleywoodrs.mangoplaceholders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.bradleywoodrs.mangoplaceholders.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mangoplaceholders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mangoplaceholders.main.iml" />
     </modules>
   </component>
