@@ -50,6 +50,14 @@ public class ScoreboardExpansion extends PlaceholderExpansion {
             return String.valueOf(daysPlayed);
         }
 
+        if (identifier.equalsIgnoreCase("playerjoin_days")) {
+            if (player == null) return "0";
+            long firstPlayed = player.getFirstPlayed();
+            long now = System.currentTimeMillis();
+            long daysSinceJoin = (now - firstPlayed) / (1000L * 60 * 60 * 24);
+            return String.valueOf(daysSinceJoin);
+        }
+
         return null;
     }
 }
